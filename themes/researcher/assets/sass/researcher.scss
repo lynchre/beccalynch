@@ -2,7 +2,7 @@
 
 // Internal variables
 $y-small: 0.6rem;
-$y-medium: 1.0rem;
+$y-medium: 1.2rem;
 
 // Placeholders
 %link-default {
@@ -54,7 +54,7 @@ $y-medium: 1.0rem;
         @extend %link-default;
     }
     p {
-        margin-bottom: $y-small;
+        margin-bottom: $y-medium;
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;
